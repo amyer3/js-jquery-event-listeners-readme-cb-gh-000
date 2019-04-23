@@ -7,7 +7,7 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('#typing').on('keypress', key => key.which == 71 ? alert("pressed") : null)
+  $('#typing').on('keypress', key => {key.which == 71 ? alert("pressed") : null})
 }
 
 function submitIt(){
