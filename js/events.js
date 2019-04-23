@@ -10,6 +10,10 @@ function pressIt(){
   $('#typing').on('keypress', key => key.which == 71 ? alert("pressed") : null)
 }
 
+function submitIt(){
+  
+}
+
 $(document).ready(function(){
 
 // call functions here
