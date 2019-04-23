@@ -3,7 +3,11 @@ function getIt(){
 }
 
 function frameIt(){
+  $('p').on("load", $('img').class('.tasty'))
+}
 
+function pressIt(){
+  $('#typing').on('keypress', key => key.which == 71 ? alert("pressed") : null)
 }
 
 $(document).ready(function(){
